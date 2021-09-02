@@ -1,5 +1,5 @@
 <?php
-define('TITLE', 'Inicio - AxolotlTeam');
+define('TITLE', 'OBIO - ITT');
 include_once 'assets/dependencies/connection.php';
 session_start();
 ?>

@@ -16,11 +16,8 @@ session_start();
 </header>
 
 <body>
-    <h1>AxolotlTeam</h1>
-    <h2>AxolotlTeam es un grupo de estudiantes de ingeniería que busca participar y sobresalir en
-        los diferentes concursos.
-        También nos agrada la idea de aprender mas sobre las herramientas que nos permitan cambiar la
-        perspectiva de la sociedad buscando un cambio positivo en ella.</h2>
+    <h1>OBIO-ITT</h1>
+    <h2>Ecommerce que permitirá vender productos de pequeños productores.</h2>
 </body>
 <footer>
     <?php include 'assets/dependencies/foot.php' ?>

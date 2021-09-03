@@ -1,0 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px; /* 1rem = 10 px */
+}
+.titulo {
+    text-align: center;
+    color: rosybrown;
+    text-transform: uppercase;
+}

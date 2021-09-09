@@ -93,19 +93,22 @@ if (isset($_POST['usrUsername']) && isset($_POST['usrPassword'])) {
     <table>
         <form action="#" method="post">
             <tr>
-                <td><label>Usuario: </label></td>
+                <td><label>User: </label></td>
                 <td><input class="form-control" type="text" name="usrUsername" placeholder="Ingrese usuario" required=""></td>
             </tr>
             <tr>
                 <td><label>Contraseña: </label></td>
                 <td><input class="form-control" type="password" name="usrPassword" placeholder="Contraseña" required=""></td>
             </tr>
-            <td><button class="cmdSignin" id="sendMessageButton" type="submit">Iniciar sesión</button></td>
+                <div class="btn-group-lg btn-group-lg" role="group" aria-label="...">
+                    <td><button class="btn btn-warning btn-lg" id="sendMessageButton" type="submit">Iniciar sesión</button></td> 
+                </div>
         </form>
         <form action='registration.php' method="post">
-            <td><button class="cmdRegister" id="registrationForm" type="submit">Registrarme</button></td>
-        </form>
+            <td><button class="btn btn-warning btn-lg" id="registrationForm" type="submit">Registrarme</button></td>
+         </form>
     </table>
+
 
 </body>
 <footer>

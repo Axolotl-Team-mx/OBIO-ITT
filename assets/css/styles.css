@@ -9,3 +9,7 @@ body{
     color: rosybrown;
     text-transform: uppercase;
 }
+.positionblogin {
+    display: flex;
+    justify-content: space-between;
+}

@@ -3,7 +3,7 @@ class DataBase
 {
     private $hotsname = 'the.axolotlteam.com';
     private $connectioninfo = array(
-        "database" => 'OBIO_ITT',
+        "database" => 'OBIO_ITT_A',
         "uid" => 'apiAxolotl',
         "pwd" => '^u4U5#keVl#7DKcj'
     );

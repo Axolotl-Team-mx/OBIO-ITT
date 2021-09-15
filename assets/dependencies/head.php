@@ -17,6 +17,13 @@ if (isset($_SESSION['rol'])) {
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/script.js"></script>
         ';
+    } else if (basename($_SERVER["PHP_SELF"]) == "login.php") {
+        echo '
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/script.js"></script>
+        ';
     } else {
         if (basename($_SERVER['PHP_SELF']) == 'users.php')
             echo '

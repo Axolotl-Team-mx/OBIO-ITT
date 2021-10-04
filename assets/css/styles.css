@@ -1,15 +1,15 @@
-html{
-    font-size: 62.5%;
-}
+
 body{
-    font-size: 16px; /* 1rem = 10 px */
+    background-color: white;
+    /* Font */
+    font-family: 'IBM Plex Sans', sans-serif;
 }
-.titulo {
-    text-align: center;
-    color: rosybrown;
-    text-transform: uppercase;
+footer{
+    background-color: #757B63;
+    color: #F8F9FA;
 }
-.positionblogin {
-    display: flex;
-    justify-content: space-between;
+.navbar{
+    background-color: #F8F9FA;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
 }

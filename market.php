@@ -1,6 +1,6 @@
 <?php
 /* Nombre de la página web. */
-define('TITLE', 'OBIO - ITT');
+define('TITLE', 'Nuestros productos');
 /* Incluimos las rutas */
 ?>
 <!DOCTYPE HTML>
@@ -16,12 +16,6 @@ define('TITLE', 'OBIO - ITT');
 </header>
 
 <body>
-    <!-- Comienza Slider -->
-    <div class="container" id="frmSlider">
-        <!-- Código referente a la portada de historias, esta parte es la -->
-        <!-- primera que visualizarán nuestros clientes.                  -->
-    </div>
-    <!-- Termina Slider -->
     <!-- Comienzan los productos top -->
     <div class="container" id="frmTopProducts">
         <!-- Código referente a los productos top, esta parte se diseñará -->
@@ -30,6 +24,13 @@ define('TITLE', 'OBIO - ITT');
         <!-- directamente de la base de datos. -->
     </div>
     <!-- Termina el área de productos top -->
+
+    <!-- Comienzan los productos     -->
+    <div class="container" id="frmTopProducts">
+        <!-- Lista de los productos en la tienda, estos se distribuirán a -->
+        <!-- mediante las categorías.                                     -->
+    </div>
+    <!-- Termina el área de productos     -->
 </body>
 <?php include 'assets/dep/footer.php' ?>
 

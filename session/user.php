@@ -31,59 +31,59 @@ define('TITLE', 'Bienvenido');
                         <hr>
                         <h3>Datos personales</h3>
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <label for="txtUsrName" class="form-label">Nombre</label>
+                            <input type="username" class="form-control" id="txtUsrName">
                         </div>
                         <div class="col-md-3">
-                            <label for="inputPassword4" class="form-label">Apellido paterno</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <label for="txtUsrLastName" class="form-label">Apellido paterno</label>
+                            <input type="usrlastname" class="form-control" id="txtUsrLastName">
                         </div>
                         <div class="col-md-3">
-                            <label for="inputPassword4" class="form-label">Apellido materno</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <label for="txtUsrMLastName" class="form-label">Apellido materno</label>
+                            <input type="usrmlastname" class="form-control" id="txtUsrMLastName">
                         </div>
                         <div class="col-md-4">
-                            <label for="inputPassword4" class="form-label">Fecha de nacimiento</label>
-                            <input type="date" class="form-control" id="inputPassword4">
+                            <label for="Bdate" class="form-label">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="Bdate">
                         </div>
                         <div class="form-check-inline col-md-4">
                             <label for="inputPassword4" class="form-label">Sexo</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="MaleGender">
                                 <label class="form-check-label" for="flexRadioDefault1">
-                                    Default radio
+                                    Masculino
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="FemaleGender" checked>
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                    Default checked radio
+                                    Femenino
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="OtherGender" checked>
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                    Default checked radio
+                                    Otro
                                 </label>
                             </div>
                         </div>
                         <hr>
                         <h3>Datos de usuario</h3>
                         <div class="col-md-5">
-                            <label for="inputPassword4" class="form-label">Nombre de usuario</label>
-                            <input type="username" class="form-control" id="inputPassword4" placeholder="Ej. Andres213">
+                            <label for="txtNickName" class="form-label">Nombre de usuario</label>
+                            <input type="username" class="form-control" id="txtNickName" placeholder="Ej. Andres213">
                         </div>
                         <div class="col-7">
-                            <label for="inputAddress" class="form-label">Correo electrónico</label>
-                            <input type="email" class="form-control" id="inputAddress" placeholder="Ej. albertog21@gmail.com">
+                            <label for="txtAddress" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="txtAddress" placeholder="Ej. albertog21@gmail.com">
                         </div>
                         <div class="col-6">
-                            <label for="inputAddress2" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="inputAddress2">
+                            <label for="txtPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="txtPassword">
                         </div>
                         <div class="col-6">
-                            <label for="inputAddress2" class="form-label">Confirmar contraseña</label>
-                            <input type="password" class="form-control" id="inputAddress2">
+                            <label for="txtCPassword" class="form-label">Confirmar contraseña</label>
+                            <input type="password" class="form-control" id="txtCPassword">
                         </div>
                         <div class="col-12">
                             <div class="form-check">
@@ -107,12 +107,12 @@ define('TITLE', 'Bienvenido');
                 <div class="cointainer">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nombre de usuario / Correo</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="txtUsrNameOrEmail" class="form-label">Nombre de usuario / Correo</label>
+                            <input type="email" class="form-control" id="txtUsrNameOrEmail" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="txtloginPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="txtloginPassword">
                         </div>
                         <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                     </form>

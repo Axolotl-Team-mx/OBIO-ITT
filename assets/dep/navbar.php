@@ -3,7 +3,7 @@
 include "route.php";
 $Links = userLoc();
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="collapse navbar-collapse" id="bdNavbar">
         <a class="navbar-brand p-2 me-2" href="#" aria-label="Bootstrap">
             <a class="navbar-brand" href="#">

@@ -16,14 +16,20 @@ define('TITLE', 'Bienvenido');
 </header>
 
 <body>
-    <!-- Comienzan los productos top -->
-    <div class="container" id="frmTopProducts">
-        <!-- Código referente a los productos top, esta parte se diseñará -->
-        <!-- directamente  con php y la lectura de la calificación de las -->
-        <!-- calificaciones  de los clientes, es decir, el dato se tomará -->
-        <!-- directamente de la base de datos. -->
-    </div>
-    <!-- Termina el área de productos top -->
+    <!-- Validamos si la sesión está iniciada. -->
+    <?php if (!isset($_SESSION['rol'])) : ?>
+        <!-- En este apartado es donde se mostrar- -->
+        <!-- el formulario para registrarse o para -->
+        <!-- iniciar sesión.                       -->
+        <!-- Área de registro de usuario -->
+        <div class="container" id="frmSignUp">
+        </div>
+        <!-- Termina el área de registro usr. -->
+        <!-- Área de inicio de sesión    -->
+        <div class="container" id="frmSignIn">
+        </div>
+        <!-- Termina el área de inicio de ses -->
+    <?php endif; ?>
 </body>
 <?php include '../assets/dep/footer.php' ?>
 
